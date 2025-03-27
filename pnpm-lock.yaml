@@ -740,8 +740,8 @@ importers:
         specifier: ^6.6.3
         version: 6.7.0(postcss@8.5.1)(ts-node@10.9.2(@types/node@20.17.16)(typescript@4.9.5))(typescript@4.9.5)
       type-fest:
-        specifier: ^3.8.0
-        version: 3.13.1
+        specifier: ^4.38.0
+        version: 4.38.0
       typescript:
         specifier: ^4.9.3
         version: 4.9.5
@@ -7927,12 +7927,8 @@ packages:
     resolution: {integrity: sha512-yGSza74xk0UG8k+pLh5oeoYirvIiWo5t0/o3zHHAO2tRDiZcxWP7fywNlXhqb6/r6sWvwi+RsyQMWhVLe4BVuA==}
     engines: {node: '>=10'}
 
-  type-fest@3.13.1:
-    resolution: {integrity: sha512-tLq3bSNx+xSpwvAJnzrK0Ep5CLNWjvFTOp71URMaAEWBfRb9nnJiBoUe0tF8bI4ZFO3omgBR6NvnbzVUT3Ly4g==}
-    engines: {node: '>=14.16'}
-
-  type-fest@4.33.0:
-    resolution: {integrity: sha512-s6zVrxuyKbbAsSAD5ZPTB77q4YIdRctkTbJ2/Dqlinwz+8ooH2gd+YA7VA6Pa93KML9GockVvoxjZ2vHP+mu8g==}
+  type-fest@4.38.0:
+    resolution: {integrity: sha512-2dBz5D5ycHIoliLYLi0Q2V7KRaDlH0uWIvmk7TYlAg5slqwiPv1ezJdZm1QEM0xgk29oYWMCbIG7E6gHpvChlg==}
     engines: {node: '>=16'}
 
   typed-array-buffer@1.0.2:
@@ -8892,7 +8888,7 @@ snapshots:
       remark-parse: 11.0.0
       remark-rehype: 11.1.1
       source-map-support: 0.5.21
-      type-fest: 4.33.0
+      type-fest: 4.38.0
       unified: 11.0.5
     optionalDependencies:
       esbuild: 0.25.0
@@ -8953,7 +8949,7 @@ snapshots:
       memfs: 4.17.0
       oo-ascii-tree: 1.106.0
       ts-pattern: 5.6.2
-      type-fest: 4.33.0
+      type-fest: 4.38.0
 
   '@cspotcode/source-map-support@0.8.1':
     dependencies:
@@ -15651,7 +15647,7 @@ snapshots:
       path-to-regexp: 6.3.0
       picocolors: 1.1.1
       strict-event-emitter: 0.5.1
-      type-fest: 4.33.0
+      type-fest: 4.38.0
       yargs: 17.7.2
     optionalDependencies:
       typescript: 4.9.5
@@ -15676,7 +15672,7 @@ snapshots:
       path-to-regexp: 6.3.0
       picocolors: 1.1.1
       strict-event-emitter: 0.5.1
-      type-fest: 4.33.0
+      type-fest: 4.38.0
       yargs: 17.7.2
     optionalDependencies:
       typescript: 5.7.3
@@ -17719,9 +17715,7 @@ snapshots:
 
   type-fest@1.4.0: {}
 
-  type-fest@3.13.1: {}
-
-  type-fest@4.33.0: {}
+  type-fest@4.38.0: {}
 
   typed-array-buffer@1.0.2:
     dependencies:
